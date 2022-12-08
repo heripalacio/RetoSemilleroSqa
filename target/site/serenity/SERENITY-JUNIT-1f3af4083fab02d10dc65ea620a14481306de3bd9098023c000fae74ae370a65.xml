@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="login" skipped="0" tests="1" time="31.31" timestamp="2022-12-07 04:39:26"><testcase name="login exitoso"><error message="element not interactable&#10;  (Session info: chrome=108.0.5359.95)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-SHPR9KJ', ip: '192.168.80.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hpala\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 49b0e52141dd01be8a2ac1f9b5b72db8&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-SHPR9KJ', ip: '192.168.80.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotInteractableException">element not interactable
+  (Session info: chrome=108.0.5359.95)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SHPR9KJ', ip: '192.168.80.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hpala\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 49b0e52141dd01be8a2ac1f9b5b72db8
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SHPR9KJ', ip: '192.168.80.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: unknown</error><system-err>element not interactable
+  (Session info: chrome=108.0.5359.95)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SHPR9KJ', ip: '192.168.80.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hpala\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 49b0e52141dd01be8a2ac1f9b5b72db8
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SHPR9KJ', ip: '192.168.80.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: unknown&#13;
+com.exito.steps.BuscarProductoStep.escribirProducto(BuscarProductoStep.java:17)&#13;
+com.exito.stepDefinitions.PaginaInicioStepDefinition.visualizaraLasOpcionesParaConfirmarIdentidad(PaginaInicioStepDefinition.java:50)&#13;
+✽.visualizara las opciones para confirmar identidad(src/test/resources/features/login.feature:7)&#13;
+</system-err></testcase></testsuite>
