@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 
 @Getter
 public class BuscarProductoPageObject extends PageObject {
+    //BUSCAR PRODUCTO POR BARRA DE BUSQUEDA
     By txtBuscar = By.xpath("//*[@placeholder='Buscar en exito.com']");
     By btnBuscar = By.xpath("//*[@class=' vtex-store-components-3-x-searchBarIcon vtex-store-components-3-x-searchBarIcon--search flex items-center pointer bn bg-transparent outline-0 pv0 pl0 pr3']");
-
 }

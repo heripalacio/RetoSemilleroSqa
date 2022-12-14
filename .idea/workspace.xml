@@ -4,8 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cebc07c4-2638-43f4-9185-65acd1a11f40" name="Changes" comment="Probando">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="cebc07c4-2638-43f4-9185-65acd1a11f40" name="Changes" comment="Cambios en el paquete steps">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetoDatos.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/RetoDatos.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exito/pageObjects/AgregarAlCarritoPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exito/pageObjects/AgregarAlCarritoPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exito/pageObjects/BuscarProductoPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exito/pageObjects/BuscarProductoPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exito/pageObjects/IngresarCuentaPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exito/pageObjects/IngresarCuentaPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exito/pageObjects/PaginaInicioPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exito/pageObjects/PaginaInicioPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exito/pageObjects/SeleccionarProductosPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exito/pageObjects/SeleccionarProductosPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exito/steps/AgregarAlCarritoStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exito/steps/AgregarAlCarritoStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exito/steps/BuscarProductoStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exito/steps/BuscarProductoStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exito/steps/IngresarCuentaStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exito/steps/IngresarCuentaStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exito/steps/PaginaInicioStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exito/steps/PaginaInicioStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/exito/stepDefinitions/BuscarStepDefitition.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/exito/stepDefinitions/BuscarStepDefitition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/exito/stepDefinitions/PaginaInicioStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/exito/stepDefinitions/PaginaInicioStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/buscar.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/buscar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.exito.runners.BuscarRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.exito.runners.BuscarRunner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.exito.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.exito.runners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/buscar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/buscar.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-buscar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-buscar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.exito.runners.BuscarRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.exito.runners.BuscarRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exito/pageObjects/AgregarAlCarritoPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exito/pageObjects/AgregarAlCarritoPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exito/pageObjects/BuscarProductoPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exito/pageObjects/BuscarProductoPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exito/pageObjects/IngresarCuentaPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exito/pageObjects/IngresarCuentaPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exito/pageObjects/PaginaInicioPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exito/pageObjects/PaginaInicioPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exito/pageObjects/SeleccionarProductosPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exito/pageObjects/SeleccionarProductosPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exito/steps/AgregarAlCarritoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exito/steps/AgregarAlCarritoStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exito/steps/BuscarProductoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exito/steps/BuscarProductoStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exito/steps/IngresarCuentaStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exito/steps/IngresarCuentaStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exito/steps/PaginaInicioStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exito/steps/PaginaInicioStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exito/stepDefinitions/BuscarStepDefitition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exito/stepDefinitions/BuscarStepDefitition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exito/stepDefinitions/PaginaInicioStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exito/stepDefinitions/PaginaInicioStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/buscar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/buscar.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1f3af4083fab02d10dc65ea620a14481306de3bd9098023c000fae74ae370a65.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1f3af4083fab02d10dc65ea620a14481306de3bd9098023c000fae74ae370a65.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1f3af4083fab02d10dc65ea620a14481306de3bd9098023c000fae74ae370a65.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1f3af4083fab02d10dc65ea620a14481306de3bd9098023c000fae74ae370a65.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1f3af4083fab02d10dc65ea620a14481306de3bd9098023c000fae74ae370a65_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1f3af4083fab02d10dc65ea620a14481306de3bd9098023c000fae74ae370a65_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1f3af4083fab02d10dc65ea620a14481306de3bd9098023c000fae74ae370a65.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1f3af4083fab02d10dc65ea620a14481306de3bd9098023c000fae74ae370a65.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-de1db576adc51cc59e75fe5c54c1d94cccb15471074f5ab2d6e220372f824723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-de1db576adc51cc59e75fe5c54c1d94cccb15471074f5ab2d6e220372f824723.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/de1db576adc51cc59e75fe5c54c1d94cccb15471074f5ab2d6e220372f824723.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/de1db576adc51cc59e75fe5c54c1d94cccb15471074f5ab2d6e220372f824723.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/de1db576adc51cc59e75fe5c54c1d94cccb15471074f5ab2d6e220372f824723.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/de1db576adc51cc59e75fe5c54c1d94cccb15471074f5ab2d6e220372f824723.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/de1db576adc51cc59e75fe5c54c1d94cccb15471074f5ab2d6e220372f824723_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/de1db576adc51cc59e75fe5c54c1d94cccb15471074f5ab2d6e220372f824723_screenshots.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +93,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/hpala/IdeaProjects/RetoSemilleroSqa",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hpala/IdeaProjects/RetoSemilleroSqa&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hpala\IdeaProjects\RetoSemilleroSqa" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.BuscarRunner">
+    <configuration name="Feature: buscar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/buscar.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.exito.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="RetoSemilleroSqa.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: buscar" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuscarRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -148,6 +225,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.BuscarRunner" />
+        <item itemvalue="Cucumber Java.Feature: buscar" />
         <item itemvalue="Gradle.PaginaInicioRunner (1)" />
         <item itemvalue="Gradle.PaginaInicioRunner" />
         <item itemvalue="Gradle.LoginRunner" />
@@ -186,6 +264,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Probando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Probando" />
+    <MESSAGE value="Cambios en el paquete steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios en el paquete steps" />
   </component>
 </project>

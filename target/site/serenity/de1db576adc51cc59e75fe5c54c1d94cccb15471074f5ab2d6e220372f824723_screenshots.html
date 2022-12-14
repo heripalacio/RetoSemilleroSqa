@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-12-2022 18:11</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-12-2022 12:57</span>
     <br style="clear:left"/>
 </div>
 
@@ -167,9 +167,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">buscar producto
+                                <span class="error-color">buscar producto
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -186,25 +186,63 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'//*[@class='exito-login-4-x-greetingsIconContainer']'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.exito.steps.PaginaInicioStep.cuentaRegistrada(PaginaInicioStep.java:30)<br />com.exito.stepDefinitions.PaginaInicioStepDefinition.ingreseASuPerfil(PaginaInicioStepDefinition.java:39)<br />✽.ingrese a su perfil(src/test/resources/features/buscar.feature:7)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource7033162248532227449.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="8e0b5a1a27eb18e483c0b92c4f8e2a90d7d370689fc3f4516e317eb5bf2d417e.png" title=" Dado el usuario se encuentre en la pagina web" width="1366"/>
-                <img src="8e0b5a1a27eb18e483c0b92c4f8e2a90d7d370689fc3f4516e317eb5bf2d417e.png" title=" Abrir navegador" width="1366"/>
-                <img src="8e0b5a1a27eb18e483c0b92c4f8e2a90d7d370689fc3f4516e317eb5bf2d417e.png" title=" Dado el usuario se encuentre en la pagina web (completed)" width="1366"/>
-                <img src="705159d174399debf258e68c04e8319541d7762bb45fba4ac683e71e3a8bdf7c.png" title=" Cuando ingrese la boton cuenta" width="1366"/>
-                <img src="705159d174399debf258e68c04e8319541d7762bb45fba4ac683e71e3a8bdf7c.png" title=" Click loguearse" width="1366"/>
-                <img src="521c22c304fef2d0ec8ba89904961234b39bd9536edb957f57f0b16ca077c0ce.png" title=" Click loguearse (completed)" width="1366"/>
-                <img src="521c22c304fef2d0ec8ba89904961234b39bd9536edb957f57f0b16ca077c0ce.png" title=" Cuando ingrese la boton cuenta (completed)" width="1366"/>
-                <img src="2050299563182091b981735dd8d539e8b4ef419bc8827fbf684b8360bf078631.png" title=" Entonces visualizara las opciones para confirmar identidad" width="1366"/>
-                <img src="2050299563182091b981735dd8d539e8b4ef419bc8827fbf684b8360bf078631.png" title=" Ingresar correo" width="1366"/>
-                <img src="6772b77d9d4f576ba23e81aa3c56bf8725a4d2b47209a7f6ec9a4597f376c19a.png" title=" Entonces visualizara las opciones para confirmar identidad (completed)" width="1366"/>
-                <img src="c67ae318ddc8d503819e047366a59aac4cd4bd1c0abe68180fe4146714c35ba3.png" title=" Cuando ingrese el nombre del producto en la barra de busqueda" width="1366"/>
-                <img src="c67ae318ddc8d503819e047366a59aac4cd4bd1c0abe68180fe4146714c35ba3.png" title=" Escribir producto" width="1366"/>
-                <img src="f99d1e8e97d229d80155e141f3e19587e4b19885033e9f429f8e6c8c79daf0ea.png" title=" Escribir producto (completed)" width="1366"/>
-                <img src="e1235c6b2147ce92c3e47c9f463cd345218bef794c34bf687d782d538da3db4f.png" title=" Cuando ingrese el nombre del producto en la barra de busqueda (completed)" width="1366"/>
-                <img src="0fc965ce52bd1766c9d849b80e233065c001bc605d1d0bd8a975a0265f4b0f8b.png" title=" Y presione el boton buscar" width="1366"/>
-                <img src="bacfcadc6dba84707dc5488f01388f2bae75315badbd6ef4d47e391ce4ed951b.png" title=" Y presione el boton buscar (completed)" width="1366"/>
-                <img src="891b126116cb1980446a5c69bf2fda9c56bd3696292f776d95f85caf639c2dc3.png" title=" Entonces mostrara una nueva pagina con el producto consultado: <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="c18a5e75399df54fb29bb0e998d853799322fd382f906453d60b7b813779e5a6.png" title=" Dado el usuario se encuentre en la pagina web e ingrese al boton cuenta" width="1366"/>
+                <img src="c18a5e75399df54fb29bb0e998d853799322fd382f906453d60b7b813779e5a6.png" title=" Abrir navegador" width="1366"/>
+                <img src="c18a5e75399df54fb29bb0e998d853799322fd382f906453d60b7b813779e5a6.png" title=" Clic mi cuenta" width="1366"/>
+                <img src="5350db062db4ba6643a8ce39749471a5bb0bc3ed4d218f9c121a0f22035eaa40.png" title=" Clic mi cuenta (completed)" width="1366"/>
+                <img src="5350db062db4ba6643a8ce39749471a5bb0bc3ed4d218f9c121a0f22035eaa40.png" title=" Dado el usuario se encuentre en la pagina web e ingrese al boton cuenta (completed)" width="1366"/>
+                <img src="5b5fec4a1987dd0d72f0681ebf47914507024b6429b5fc6eb4be9a49ea5874ad.png" title=" Cuando registre sus datos de logueo correctamente" width="1366"/>
+                <img src="5b5fec4a1987dd0d72f0681ebf47914507024b6429b5fc6eb4be9a49ea5874ad.png" title=" Click loguearse" width="1366"/>
+                <img src="5b5fec4a1987dd0d72f0681ebf47914507024b6429b5fc6eb4be9a49ea5874ad.png" title=" Ingresar correo" width="1366"/>
+                <img src="72cb09612df51b85df7d600ff3d1e2dc5cff54cb70dd9ff4f3e4fd5ddbfe3b02.png" title=" Ingresar correo (completed)" width="1366"/>
+                <img src="72cb09612df51b85df7d600ff3d1e2dc5cff54cb70dd9ff4f3e4fd5ddbfe3b02.png" title=" Ingresar clave" width="1366"/>
+                <img src="47d4173045812154f8d15f6df70acafe4aa354bbdb495f1363eccc1d87918fa7.png" title=" Ingresar clave (completed)" width="1366"/>
+                <img src="47d4173045812154f8d15f6df70acafe4aa354bbdb495f1363eccc1d87918fa7.png" title=" Cuando registre sus datos de logueo correctamente (completed)" width="1366"/>
+                <img src="47d4173045812154f8d15f6df70acafe4aa354bbdb495f1363eccc1d87918fa7.png" title=" Y ingrese a su perfil" width="1366"/>
+                <img src="4a74f71faaed98cd29c97d1b41ffba5f44dfb6b2f709a705ad1dcf508e37d603.png" title=" Entrar" width="1366"/>
+                <img src="4a74f71faaed98cd29c97d1b41ffba5f44dfb6b2f709a705ad1dcf508e37d603.png" title=" Cuenta registrada" width="1366"/>
+                <img src="d8ba7026dc9957ec699ce38aac9d44bad473a0b9141daf32ba3f3dc89017f2b8.png" title=" Cuenta registrada (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

@@ -13,20 +13,17 @@ public class IngresarCuentaStep {
     DatosExcel datosExcel = new DatosExcel();
     EsperaImplicita esperaImplicita = new EsperaImplicita();
 
-
-
     @Step
     public void ingresarCorreo() throws IOException {
         ingresarCuentaPageObject.getDriver().findElement(ingresarCuentaPageObject.getTxtCorreo()).sendKeys(datosExcel.leerDatosExcel("RetoDatos.xlsx","DatosLogueo",1,0));
 
     }
-
-
+    @Step
     public void ingresarClave() throws IOException {
       ingresarCuentaPageObject.getDriver().findElement(ingresarCuentaPageObject.getTxtContraseña()).sendKeys(datosExcel.leerDatosExcel("RetoDatos.xlsx","DatosLogueo",1,1));
         esperaImplicita.esperaImplicita(2);
     }
-
+    @Step
     public void entrar(){
         ingresarCuentaPageObject.getDriver().findElement(ingresarCuentaPageObject.getBtnEntrar()).click();
 

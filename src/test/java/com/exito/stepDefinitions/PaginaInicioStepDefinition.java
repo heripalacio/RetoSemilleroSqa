@@ -18,30 +18,31 @@ public class PaginaInicioStepDefinition {
     @Steps
     EsperaImplicita esperaImplicita;
 
-    @Dado("^el usuario se encuentre en la pagina web$")
-    public void elUsuarioSeEncuentreEnLaPaginaWeb() {
+    @Dado("^el usuario se encuentre en la pagina web e ingrese al boton cuenta$")
+    public void elUsuarioSeEncuentreEnLaPaginaWebEIngreseAlBotonCuenta() {
         paginaInicioStep.abrirNavegador();
-
-
-    }
-
-
-    @Cuando("^ingrese la boton cuenta$")
-    public void ingreseLaBotonCuenta() throws IOException {
         paginaInicioStep.clicMiCuenta();
-        paginaInicioStep.clickLoguearse();
-
-
     }
 
-    @Entonces("^visualizara las opciones para confirmar identidad$")
-    public void visualizaraLasOpcionesParaConfirmarIdentidad() throws IOException {
 
+    @Cuando("^registre sus datos de logueo correctamente$")
+    public void registreSusDatosDeLogueoCorrectamente() throws IOException {
+        paginaInicioStep.clickLoguearse();
         ingresarCuentaStep.ingresarCorreo();
         ingresarCuentaStep.ingresarClave();
-        ingresarCuentaStep.entrar();
-        esperaImplicita.esperaImplicita(5);
 
     }
 
+    @Cuando("^ingrese a su perfil$")
+    public void ingreseASuPerfil() {
+        ingresarCuentaStep.entrar();
+        paginaInicioStep.cuentaRegistrada();
+        esperaImplicita.esperaImplicita(5);
+    }
+
+    @Entonces("^visualizara su perfil de cuenta$")
+    public void visualizaraSuPerfilDeCuenta() {
+        paginaInicioStep.validarLogueo();
+
+    }
 }
