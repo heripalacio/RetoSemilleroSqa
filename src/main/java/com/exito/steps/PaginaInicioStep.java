@@ -24,13 +24,11 @@ public class PaginaInicioStep {
     public void clickLoguearse() {
         paginaInicioPageObject.getDriver().findElement(paginaInicioPageObject.getTxtLoguearse()).click();
     }
-
     @Step
     public void cuentaRegistrada() {
         paginaInicioPageObject.getDriver().findElement(paginaInicioPageObject.getBtnCuenta()).click();
         paginaInicioPageObject.getDriver().findElement(paginaInicioPageObject.getBtnCuentaRegistrada()).click();
     }
-
     @Step
     public void validarLogueo() {
         Assert.assertThat(paginaInicioPageObject.getDriver().findElement(paginaInicioPageObject.getTxtMensajeValidacion()).isDisplayed(), Matchers.is(true));

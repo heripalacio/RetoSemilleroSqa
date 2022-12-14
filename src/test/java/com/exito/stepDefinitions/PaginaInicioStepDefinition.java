@@ -6,7 +6,6 @@ import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
 import net.thucydides.core.annotations.Steps;
-
 import java.io.IOException;
 
 public class PaginaInicioStepDefinition {

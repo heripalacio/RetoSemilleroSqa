@@ -24,21 +24,17 @@ public class BuscarStepDefitition {
     @Cuando("^ingrese el nombre del producto en la barra de busqueda$")
     public void ingreseElNombreDelProductoEnLaBarraDeBusqueda() throws IOException {
         buscarProductoStep.escribirProducto();
-    }
-
-
-    @Cuando("^presione el boton buscar$")
-    public void presioneElBotonBuscar() {
         buscarProductoStep.botonBuscar();
-
     }
 
-    @Entonces("^podra agregar el producto al carrito$")
-    public void podraAgregarElProductoAlCarrito() {
+
+    @Cuando("^agregue el producto al carrito$")
+    public void agregueElProductoAlCarrito() {
         agregarAlCarritoStep.agregarCarrito();
         esperaImplicita.esperaImplicita(5);
         agregarAlCarritoStep.verCarrito();
         esperaImplicita.esperaImplicita(5);
+
     }
 
     @Entonces("^verificar que los productos hayan sido agregado correctamente$")
